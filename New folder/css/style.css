@@ -38,21 +38,21 @@ ul li { display: inline; }
 
 
 .rowLeft{
-	background: #ccc;
-	border: 1px solid rgb(0, 0, 0); 
-	padding: 10px 
-	width: 747px
+	background: white;
+	border: 2px solid rgb(0, 0, 0); 
+	padding: 18px ;
+	width: 847px;
 }
 .rowLeft:hover{
 	background: #eee;
-	border: 1px solid rgb(0, 0, 0); 
-	padding: 10px 
-	width: 747px
+	border: 1px solid rgb(1, 1, 1); 
+	padding: 20px ;
+	width: 847px;
 }
 
 
-a.tooltip {outline:none; font-size: 14px }
-a.tooltip strong {line-height:30px;}
+a.tooltip {outline:none; font-size: 14px; color: black; text-decoration: none; text-align: center;}
+a.tooltip strong {line-height:40px;}
 a.tooltip:hover {text-decoration:none;} 
 a.tooltip span {
     z-index:10;display:none; padding:14px 20px;
