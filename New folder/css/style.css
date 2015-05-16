@@ -28,6 +28,8 @@ ul li { display: inline; }
 
 .cboth { clear: both; }
 
+
+
 #main {
 	background: #fff;
 	margin: 0 auto;
@@ -38,20 +40,27 @@ ul li { display: inline; }
 
 
 .rowLeft{
-	background: white;
+	background: #CCCCCC ;
 	border: 2px solid rgb(0, 0, 0); 
+	border-radius: 5px 50px 30px 5px;
 	padding: 18px ;
 	width: 847px;
 }
 .rowLeft:hover{
-	background: #eee;
+	background: #669999;
 	border: 1px solid rgb(1, 1, 1); 
 	padding: 20px ;
 	width: 847px;
 }
 
+.rightmatter{
+	position: relative;
+	top: 0px;
+	right: -700px;
+}
 
-a.tooltip {outline:none; font-size: 14px; color: black; text-decoration: none; text-align: center;}
+
+a.tooltip {outline:none; font-size: 18px; color: black; text-decoration: none;}
 a.tooltip strong {line-height:40px;}
 a.tooltip:hover {text-decoration:none;} 
 a.tooltip span {
